@@ -1,11 +1,13 @@
 import React from "react";
+import logo from "../../Assets/images/logo/logo.png";
+import navcss from "./AppNav.module.css";
 
 const AppNav = (props) => {
   return (
     <>
-      <div className="nav d-flex justify-content-between p-3 bg-warning align-items-center">
+      <div className="nav d-flex justify-content-between p-3 bg-warning bg-gradient align-items-center">
         <div className="nav-items">
-          <h1>AppNav</h1>
+          <img src={logo} alt="logo" className={navcss.logo} />
         </div>
         <div className="nav-items">
           <ul className="row list-unstyled m-0">
