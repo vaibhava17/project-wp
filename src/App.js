@@ -1,9 +1,36 @@
 import './App.css';
-import AppNav from './Components/AppNav/AppNav';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import routesMapping from "./Routes/routes";
+import AppLayout from './Components/AppLayout/AppLayout';
+
 
 function App() {
   return (
-    <AppNav />
+    <BrowserRouter>
+      <Routes>
+        {routesMapping.map((i) => {
+          return (
+            <Route
+              key={i.path}
+              path={i.path}
+              element={
+                i.withAppLayout ? (
+                  <AppLayout>
+                    <div id="page-content-wrapper">
+                      <i.AppNav />
+                      <i.Component />
+                    </div>
+                  </AppLayout>
+                ) : (
+                  <i.Component />
+                )
+              }
+            ></Route>
+          );
+        })}
+      </Routes>
+    </BrowserRouter>
   );
 }
 

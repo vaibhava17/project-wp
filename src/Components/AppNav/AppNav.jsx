@@ -5,7 +5,7 @@ import navcss from "./AppNav.module.css";
 const AppNav = (props) => {
   return (
     <>
-      <div className="nav d-flex justify-content-between p-3 bg-warning bg-gradient align-items-center">
+      <div className="nav d-flex justify-content-between px-3 bg-warning bg-gradient align-items-center">
         <div className="nav-items">
           <img src={logo} alt="logo" className={navcss.logo} />
         </div>
