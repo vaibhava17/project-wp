@@ -20,6 +20,7 @@ function App() {
                     <div id="page-content-wrapper">
                       <i.AppNav />
                       <i.Component />
+                      <i.AppFooter />
                     </div>
                   </AppLayout>
                 ) : (
