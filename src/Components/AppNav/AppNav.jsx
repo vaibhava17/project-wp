@@ -7,12 +7,12 @@ const AppNav = (props) => {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
-        <Container>
+        <Container className="justify-content-between">
           <Navbar.Brand href="#home">
             <img src={logo} width="70" height="70" alt="logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
             <Nav>
               <Nav.Link href="#features">Home</Nav.Link>
               <Nav.Link href="#pricing">About</Nav.Link>
