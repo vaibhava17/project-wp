@@ -1,44 +1,39 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
 
 const AppFooter = (props) => {
-    return (
-        <>
-        <div className="footer">
-            <div className="footer-top">
-                <div className=""></div>
-            </div>
-            <div className="footer-bottom"></div>
+  return (
+    <>
+      <div className="footer bg-warning">
+        <div className="footer-top">
+          <Row className="m-0">
+            <Col sm={6} lg={3}>
+              hi
+            </Col>
+            <Col sm={6} lg={3}>
+              hi
+            </Col>
+            <Col sm={6} lg={3}>
+              hi
+            </Col>
+            <Col sm={6} lg={3}>
+              hi
+            </Col>
+          </Row>
         </div>
-            {/* <div className="footer bg-warning bg-gradient">
-                <div className="container-fluid p-0">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="footer-content">
-                                <div className="row">
-                                    <div className="col-12">
-                                        <div className="footer-logo">
-                                            <img src="https://via.placeholder.com/150" alt="logo" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-12">
-                                        <div className="footer-links">
-                                            <ul className="row list-unstyled m-0">
-                                                <li className="footer-links-item col">Home</li>
-                                                <li className="footer-links-item col">About</li>
-                                                <li className="footer-links-item col">Contact</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-        </>
-    );
-}
+        <div className="footer-bottom">
+          <Row className="m-0">
+            <Col lg={6}>
+              hi
+            </Col>
+            <Col lg={6}>
+              hi
+            </Col>
+          </Row>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default AppFooter;
