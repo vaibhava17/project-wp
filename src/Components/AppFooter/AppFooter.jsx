@@ -13,7 +13,12 @@ const AppFooter = (props) => {
         <br />
         <h4>Webpaage Technologies</h4>
         </div>
-        <div className="col"></div>
+        <div className="col dflex align-self-center">
+          <a href="#">Home</a>
+          <a href="#">Home</a>
+          <a href="#">Home</a>
+          <a href="#">Home</a>
+        </div>
         <div className="col"></div>
         <div className="col"></div>
       </div>
