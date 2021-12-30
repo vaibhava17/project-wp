@@ -1,7 +1,7 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown, Image, Container } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Image, Container, Button } from "react-bootstrap";
 import logo from "../../Assets/images/logo/logo.png";
-// import navcss from "./AppNav.module.css";
+import navcss from "./AppNav.module.css";
 
 const AppNav = (props) => {
   return (
@@ -18,7 +18,9 @@ const AppNav = (props) => {
               <Nav.Link href="#pricing">About</Nav.Link>
               <Nav.Link href="#deets">Contact</Nav.Link>
               <Nav.Link eventKey={2} href="#memes"></Nav.Link>
+              
             </Nav>
+            <Button variant="info" className="btn-grad">Login</Button >{' '}
           </Navbar.Collapse>
         </Container>
       </Navbar>
