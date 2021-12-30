@@ -16,7 +16,7 @@ const AppNav = (props) => {
             <Nav>
               <Nav.Link href="#features">Home</Nav.Link>
               <Nav.Link href="#pricing">About</Nav.Link>
-              <NavDropdown title="Service" id="navbarScrollingDropdown">
+              <NavDropdown title="Services" id="navbarScrollingDropdown">
           <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
           <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
           <NavDropdown.Divider />
@@ -31,7 +31,9 @@ const AppNav = (props) => {
             <Button variant="info" className="btn-grad">Login</Button >{' '}
           </Navbar.Collapse>
         </Container>
+        
       </Navbar>
+      
     </>
   );
 };

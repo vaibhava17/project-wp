@@ -1,37 +1,24 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import logo from "../../Assets/images/logo/logo.png";
 
 const AppFooter = (props) => {
   return (
     <>
-      <div className="footer bg-warning">
-        <div className="footer-top">
-          <Row className="m-0">
-            <Col sm={6} lg={3}>
-              hi
-            </Col>
-            <Col sm={6} lg={3}>
-              hi
-            </Col>
-            <Col sm={6} lg={3}>
-              hi
-            </Col>
-            <Col sm={6} lg={3}>
-              hi
-            </Col>
-          </Row>
+  <div className="footer">
+    <div className="container">
+      <div className="row">
+        <div className="col mt-5 text-center">
+        <img src={logo} width="100" height="100" alt="logo" />
+        <br />
+        <h4>Webpaage Technologies</h4>
         </div>
-        <div className="footer-bottom">
-          <Row className="m-0">
-            <Col lg={6}>
-              hi
-            </Col>
-            <Col lg={6}>
-              hi
-            </Col>
-          </Row>
-        </div>
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
       </div>
+    </div>
+  </div>
     </>
   );
 };

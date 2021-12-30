@@ -82,6 +82,12 @@ body {
    color: #fff important;
    text-decoration: none;
  }
+ .footer{
+  background-color: #031b34;
+  color: white;
+  height: 400px;
+  font-family: Manrope;
+ }
 
 
 
