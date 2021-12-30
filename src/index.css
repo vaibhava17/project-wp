@@ -15,3 +15,9 @@ code {
 :root{
   --prime-color: #6f42c1;
 }
+
+body{
+  height: 100vh;
+  background: linear-gradient(var(--prime-color), blue);
+  background-repeat: no-repeat;
+}

@@ -1,6 +1,4 @@
-import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import routesMapping from "./Routes/routes";
 import AppLayout from './Components/AppLayout/AppLayout';
 
