@@ -16,6 +16,14 @@ const AppNav = (props) => {
             <Nav>
               <Nav.Link href="#features">Home</Nav.Link>
               <Nav.Link href="#pricing">About</Nav.Link>
+              <NavDropdown title="Service" id="navbarScrollingDropdown">
+          <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+          <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="#action5">
+            Something else here
+          </NavDropdown.Item>
+        </NavDropdown>
               <Nav.Link href="#deets">Contact</Nav.Link>
               <Nav.Link eventKey={2} href="#memes"></Nav.Link>
               

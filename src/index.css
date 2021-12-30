@@ -71,10 +71,10 @@ body {
    color: var(--prime-color); 
    font-size: 0.75rem;
    
-   border:none;         
+   border:none !important;         
    
-   border-radius: 30px;
-   display: block;
+   border-radius: 30px !important;
+   display: block !important;
  }
 
  .btn-grad:hover {
