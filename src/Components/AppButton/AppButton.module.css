@@ -1,0 +1,23 @@
+.btnDark {
+  background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  color: var(--prime-color) !important;
+  font-size: 0.75rem !important;
+}
+
+.btnDark:hover {
+  background-position: right center;
+  color: white !important;
+}
+
+.btnLight {
+  background-color: white;
+  border: 1px solid #fbb034 !important;
+  color: #fbb034 !important;
+  font-size: 0.75rem !important;
+}
+
+.btnLight:hover {
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  color: var(--prime-color) !important;
+}
