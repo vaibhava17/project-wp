@@ -1,23 +1,16 @@
-import React, { useState } from "react";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import React from "react";
+import { Navbar, Nav, NavDropdown, Image } from "react-bootstrap";
 import logo from "../../Assets/images/logo/logo.png";
-import navcss from "./AppNav.module.css";
+// import navcss from "./AppNav.module.css";
 
 const AppNav = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => {
-    if (!isOpen) {
-      setIsOpen(true);
-    } else {
-      setIsOpen(false);
-    }
-  };
 
   return (
     <>
       <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <Image src={logo} width="100" height="100" className="d-inline-block align-top" alt="logo" />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
