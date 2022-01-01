@@ -34,7 +34,7 @@ const AppNav = (props) => {
               <Nav.Link eventKey={2} href="#memes"></Nav.Link>
               <Nav.Link>
                 <AppButton
-                  label={"Login"}
+                  label={"Get a Quote"}
                   withBg
                   className={"border-0 rounded-pill"}
                 />

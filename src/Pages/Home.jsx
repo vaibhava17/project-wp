@@ -1,9 +1,11 @@
 import React from "react";
+import AppCarousel from "../Components/Carsoule/Carsoule";
+
 
 const Home = (props) => {
   return (
     <>
-      <h1></h1>
+   <AppCarousel />
     </>
   );
 };
