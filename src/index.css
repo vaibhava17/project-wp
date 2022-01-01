@@ -65,10 +65,18 @@ body {
   
 }
 .footer-links ul li a{
-  color: white;
+  color: grey;
   text-decoration: none;
   font-family: 'Fjalla One', sans-serif;
 }
 
 *{font-family: 'Fjalla One', sans-serif;}
+.footer-logo h6 span{
+  color: #b3cdd1;
+
+
+
+
+}
+
 

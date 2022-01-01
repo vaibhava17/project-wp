@@ -9,11 +9,23 @@ const AppFooter = (props) => {
         
         <div className="container py-5">
           <div className="row">
-            <div className="col-md-3 col-sm-6">
-              <div className="footer-logo">
-                <img src={logo} width="100" height="100" alt="logo" />
-                <h4>Webpaage Technologies</h4>
+            <div className="col-md-3 col-sm-6 ">
+              <div className="row justify-content-center">
+              <div className="footer-logo col-12">
+                <img src={logo} width="50" height="50" alt="logo" />
+                <h6>Webpaage <span>Technologies</span></h6>
+
               </div>
+              <hr />
+              <div className="col-12 ">
+                <ul className="list-unstyled list-group list-group-horizontal mx-auto">
+                <li className="list-group-item"><i class="fab fa-instagram"></i></li>
+                <li className="list-group-item"><i class="fab fa-facebook"></i></li>
+                <li className="list-group-item"><i class="fab fa-github"></i></li>
+                <li className="list-group-item"><i class="fab fa-linkedin-in"></i></li>
+                <li className="list-group-item"><i class="fab fa-twitter"></i></li>
+                </ul> </div>
+                </div>
             </div>
             <div className="col-md-3 col-sm-6 ">
               <div className="footer-links">
