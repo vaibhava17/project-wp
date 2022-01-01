@@ -62,12 +62,18 @@ body {
   color: white;
   height: auto;
   font-family: Manrope;
+  position: fixed ;
+  bottom: 0;
+  width: 100%;
+
+
   
 }
 .footer-links ul li a{
   color: grey;
   text-decoration: none;
   font-family: 'Fjalla One', sans-serif;
+
 }
 
 *{font-family: 'Fjalla One', sans-serif;}
