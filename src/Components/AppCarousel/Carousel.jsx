@@ -16,11 +16,9 @@ const AppCarousel = ({ src }) => {
       <div>
         <div style={contentStyle}>
           <div className="container">
-            <div className="row">
-              <div className="col-sm carousel ">
-                <br></br>
+            <div className="row align-items-center">
+              <div className="col-sm-7 carousel ">
                 <h3>Grow Your Business Online With Us</h3>
-                <br></br>
                 <p>
                   When everything is online then why are'nt you? Take your
                   buisness online and reach the people all over the world not
@@ -34,8 +32,7 @@ const AppCarousel = ({ src }) => {
               </div>
 
               <div className="col-sm">
-                <br></br>
-                <img src={src} width="80%" height="80%" alt="logo" />
+                <img className="mx-auto" src={src} width="80%" height="80%" alt="logo" />
               </div>
             </div>
           </div>
