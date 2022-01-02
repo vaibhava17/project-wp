@@ -24,19 +24,19 @@ const AppFooter = (props) => {
                 </div>
                 <Col>
                   <ul className="list-unstyled justify-content-center list-group list-group-horizontal mx-auto">
-                    <li className="list-group-item">
+                    <li className="list-group-item mx-1 rounded-circle align-self-center py-1 px-2">
                       <i class="fab fa-instagram"></i>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item mx-1 rounded-circle align-self-center py-1 px-2">
                       <i class="fab fa-facebook"></i>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item mx-1 rounded-circle align-self-center py-1 px-2">
                       <i class="fab fa-github"></i>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item mx-1 rounded-circle align-self-center py-1 px-2">
                       <i class="fab fa-linkedin-in"></i>
                     </li>
-                    <li className="list-group-item">
+                    <li className="list-group-item mx-1 rounded-circle align-self-center py-1 px-2">
                       <i class="fab fa-twitter"></i>
                     </li>
                   </ul>{" "}
