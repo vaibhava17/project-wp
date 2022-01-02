@@ -1,27 +1,28 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import logo from "../../Assets/images/logo/logo.png";
+import styles from "./AppFooter.module.css";
 
 const AppFooter = (props) => {
   const year = new Date().getFullYear();
   return (
     <>
-      <div className="footer p-3">
-        <div className="container py-5">
-          <div className="row">
-            <div className="col-md-3 col-sm-6 pb-4">
-              <div className="row">
-                <div className="footer-logo text-center col">
-                  <img src={logo} width="100" height="100" alt="logo" />
+      <div className={styles.footer + ` pb-3 pt-5`}>
+        <Container>
+          <Row>
+            <Col md={3} sm={6} className="pb-4">
+              <Row>
+                <Col className={styles.footerLogo + ` text-center`}>
+                  <Image src={logo} width="100" height="100" alt="logo" />
                   <h5>
                     Webpaage <span>Technologies</span>
                   </h5>
                   <p>Delivering success with every solution.</p>
-                </div>
+                </Col>
                 <div className="w-100">
                   <hr />
                 </div>
-                <div className="col ">
+                <Col>
                   <ul className="list-unstyled justify-content-center list-group list-group-horizontal mx-auto">
                     <li className="list-group-item">
                       <i class="fab fa-instagram"></i>
@@ -39,11 +40,11 @@ const AppFooter = (props) => {
                       <i class="fab fa-twitter"></i>
                     </li>
                   </ul>{" "}
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 mt-md-5 ps-md-5">
-              <div className="footer-links">
+                </Col>
+              </Row>
+            </Col>
+            <Col md={3} sm={6} className="mt-md-5 ps-md-5">
+              <div className={styles.footerLinks}>
                 <h4>Services</h4>
                 <ul className="list-unstyled">
                   <li>
@@ -60,9 +61,9 @@ const AppFooter = (props) => {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="col-md-3 col-sm-6 mt-md-5 ps-md-5">
-              <div className="footer-links">
+            </Col>
+            <Col md={3} sm={6} className="mt-md-5 ps-md-5">
+              <div className={styles.footerLinks}>
                 <h4>About</h4>
                 <ul className="list-unstyled ">
                   <li className="text-decoration-none">
@@ -79,9 +80,9 @@ const AppFooter = (props) => {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="col-md-3 col-sm-6 mt-md-5 ps-md-5">
-              <div className="footer-links">
+            </Col>
+            <Col md={3} sm={6} className="mt-md-5 ps-md-5">
+              <div className={styles.footerLinks}>
                 <h4>Contact</h4>
                 <ul className="list-unstyled">
                   <li>
@@ -103,12 +104,12 @@ const AppFooter = (props) => {
                   </li>
                 </ul>
               </div>
-            </div>
-          </div>
-          <div className="text-center">
+            </Col>
+          </Row>
+          <div className="text-center pt-2">
             <p>Copyright © Webpaage. All rights reserved {year}</p>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );

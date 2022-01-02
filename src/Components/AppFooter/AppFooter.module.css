@@ -1,0 +1,24 @@
+.footer {
+  background-color: #031b34;
+  color: white;
+  height: auto;
+  font-family: Manrope;
+  bottom: 0;
+}
+.footerLinks ul li a {
+  color: grey;
+  text-decoration: none;
+}
+.footerLinks h4 {
+  color: white;
+}
+
+.footerLogo h5 {
+  color: white;
+}
+.footerLogo h5 span {
+  color: #b3cdd1;
+}
+.footerLogo p {
+  font-family: "Vujahday Script", cursive;
+}

@@ -18,6 +18,13 @@ code {
   --prime-color: #6f42c1;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Fjalla One", sans-serif;
+}
+
 body {
   height: 100vh;
   background-repeat: no-repeat;
@@ -58,40 +65,6 @@ body {
   );
 }
 
-.footer {
-  background-color: #031b34;
-  color: white;
-  height: auto;
-  font-family: Manrope;
-  bottom: 0;
-}
-.footer-links ul li a {
-  color: grey;
-  text-decoration: none;
-  font-family: "Fjalla One", sans-serif;
-}
-.footer-links h4 {
-  color: white;
-  font-family: "Fjalla One", sans-serif;
-}
-
-* {
-  font-family: "Fjalla One", sans-serif;
-}
-
-.footer-logo h5 {
-  color: white;
-  font-family: "Fjalla One", sans-serif;
-}
-.footer-logo h5 span {
-  color: #b3cdd1;
-}
-.footer-logo p {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-family: "Catamaran", sans-serif;
-  font-family: "Fjalla One", sans-serif;
-  font-family: "Vujahday Script", cursive;
-}
 .carousel h3,
 p {
   font-family: "Barlow Semi Condensed", sans-serif;
