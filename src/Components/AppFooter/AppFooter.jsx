@@ -88,7 +88,12 @@ const AppFooter = (props) => {
                     <a href="#">About Us</a>
                   </li>
                   <li>
-                    <a href="https://goo.gl/maps/RJAmPm3zKdZJjQZ57" target="_blank">503, Civil Lines, Bareilly - 243001</a>
+                    <a
+                      href="https://goo.gl/maps/RJAmPm3zKdZJjQZ57"
+                      target="_blank"
+                    >
+                      503, Civil Lines, Bareilly - 243001
+                    </a>
                   </li>
                   <li>
                     <a href="mailto:contact@webpaage.in">Contact@webpaage.in</a>
@@ -98,10 +103,7 @@ const AppFooter = (props) => {
                   </li>
                 </ul>
               </div>
-
             </div>
-
-          
           </div>
           <div className="text-center">
             <p>Copyright © Webpaage. All rights reserved {year}</p>
