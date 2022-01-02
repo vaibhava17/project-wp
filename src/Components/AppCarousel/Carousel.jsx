@@ -30,7 +30,6 @@ const AppCarousel = ({ src }) => {
                   amazing web development plans today!
                 </p>
               </div>
-
               <div className="col-sm">
                 <img className="mx-auto" src={src} width="80%" height="80%" alt="logo" />
               </div>
