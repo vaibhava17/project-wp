@@ -21,9 +21,9 @@ const AppCarousel=({src})=> {
     <div>
     <div style={contentStyle}>
       <div className='container'>
-      <div className='row p-5'>
-        <div className='col-sm carousel '>
-          <br></br>
+      <div className='row pt-5'>
+        <div className='col-sm carousel  pt-0 pt-sm-5 '>
+          
          <h3>Grow Your Business Online With Us</h3>
          <br></br>
          <p >When everything is online then why are'nt you? Take your buisness online and reach the people all over the world not just in Bareilly or UP. Create your professional looking website design today. Or already have a website looking to take it one step ahead? We will develop your website with the look you imagined.
