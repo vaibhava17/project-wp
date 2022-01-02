@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav, NavDropdown, Image, Container } from "react-bootstrap";
 import logo from "../../Assets/images/logo/logo.png";
 import AppButton from "../AppButton/AppButton";
-import navcss from "./AppNav.module.css";
+// import navcss from "./AppNav.module.css";
 
 const AppNav = (props) => {
   return (
@@ -18,9 +18,17 @@ const AppNav = (props) => {
             className="justify-content-end"
           >
             <Nav>
-              <Nav.Link href="#features">Home</Nav.Link>
-              <Nav.Link href="#pricing">About</Nav.Link>
-              <NavDropdown title="Services" id="navbarScrollingDropdown">
+              <Nav.Link href="#features" className="align-self-center">
+                Home
+              </Nav.Link>
+              <Nav.Link href="#pricing" className="align-self-center">
+                About
+              </Nav.Link>
+              <NavDropdown
+                title="Services"
+                id="navbarScrollingDropdown"
+                className="align-self-center"
+              >
                 <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">
                   Another action
@@ -30,8 +38,14 @@ const AppNav = (props) => {
                   Something else here
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#deets">Contact</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes"></Nav.Link>
+              <Nav.Link href="#deets" className="align-self-center">
+                Contact
+              </Nav.Link>
+              <Nav.Link
+                eventKey={2}
+                href="#memes"
+                className="align-self-center"
+              ></Nav.Link>
               <Nav.Link>
                 <AppButton
                   label={"Get a Quote"}
