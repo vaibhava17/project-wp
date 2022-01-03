@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Catamaran:wght@100&family=Fjalla+One&family=Vujahday+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -65,8 +68,24 @@ body {
   );
 }
 
-.carousel h3,
-p {
+.carousel h3 {
   font-family: "Barlow Semi Condensed", sans-serif;
   color: white;
+  font-size: 42px;
+ 
+}
+
+.carousel p{
+  font-family: 'M PLUS 1 Code', sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+.i{
+  background-image: url(Assets/images/carousel/c7.png)
+}
+.carousel ul li{
+  text-align: left;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  
 }
