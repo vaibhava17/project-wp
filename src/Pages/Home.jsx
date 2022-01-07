@@ -1,12 +1,10 @@
 import React from "react";
 import AppCarousel from "../Components/AppCarousel/Carousel";
-
 import web from "../Assets/images/services/web.png";
 import seo from "../Assets/images/services/seo.png";
 import graphic from "../Assets/images/services/graphic.png";
 import AppServices from "../Components/AppServices/Services";
-import carouselData  from "../Data/HomeCarousel";
-
+import carouselData from "../Data/HomeCarousel";
 
 const Home = (props) => {
   return (
