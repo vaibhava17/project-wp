@@ -21,14 +21,7 @@ const Slider = ({src, name, context}) => {
               <h3>{name}</h3>
               <p>
                   {context}
-                {/* When everything is online then why are'nt you? Take your
-                buisness online and reach the people all over the world not just
-                in Bareilly or UP. Create your professional looking website
-                design today. Or already have a website looking to take it one
-                step ahead? We will develop your website with the look you
-                imagined. Just Contact Us!! Support local developers from
-                Bareilly. Take a tour of our website and browse through amazing
-                web development plans today! */}
+                
               </p>
               <AppButton
                 label={"Get a Quote"}
