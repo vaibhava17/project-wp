@@ -22,6 +22,7 @@ const AppServices = ({ web, seo, graphic }) => {
                   Some web designs are used a lot and have standard templates
                   that are free for people to use
                 </p>
+                <button className="btn btn-primary">Know more</button>
               </Card>
             </Col>
             <Col className="text-center  mb-3" sm={8}>
@@ -37,6 +38,7 @@ const AppServices = ({ web, seo, graphic }) => {
                   practice of increasing the quantity and quality of traffic to
                   your website through organic search engine results.
                 </p>
+                <button className="btn btn-primary">Know more</button>
               </Card>
             </Col>
             <Col className="text-center mb-3" sm={8}>
@@ -46,12 +48,13 @@ const AppServices = ({ web, seo, graphic }) => {
                 className="h-100"
               >
                 <img src={graphic} height="40%" width="40%" />
-                <p className="text-start">
+                <p className="text-start p-2">
                   Graphic design is the process of visual communication through
                   the use of typography, photography, iconography and
                   illustration. The field is considered a subset of visual
                   communication and communication design,.
                 </p>
+                <button className="btn btn-primary ">Know more</button>
               </Card>
             </Col>
           </Row>
